@@ -1,9 +1,9 @@
 <?php
 if(isset($_POST['add']))
 {
-$dbhost = 'localhost:3036';
-$dbuser = 'ffxivita_static';
-$dbpass = 'staticsearch';
+$dbhost = '';
+$dbuser = '';
+$dbpass = '';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass);
 if(! $conn )
 {
